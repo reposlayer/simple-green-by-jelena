@@ -25,6 +25,7 @@ export default function RootLayout({
   return (
     <html lang="hr" className="scroll-smooth">
       <body className={`${playfair.variable} ${manrope.variable} font-sans bg-[#F4F1ED] text-[#121A15] antialiased overflow-x-hidden selection:bg-[#B1C898] selection:text-[#121A15]`}>
+        <div className="noise-overlay" />
         {children}
       </body>
     </html>

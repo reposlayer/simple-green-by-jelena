@@ -38,3 +38,28 @@
 .clip-text {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
+
+/* Midas Touch Additions */
+.noise-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  opacity: 0.055;
+  mix-blend-mode: overlay;
+}
+
+.text-outline {
+  -webkit-text-stroke: 1.5px #F4F1ED;
+  color: transparent;
+}
+
+.text-outline-dark {
+  -webkit-text-stroke: 1px #121A15;
+  color: transparent;
+}
+
+.mask-reveal {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
