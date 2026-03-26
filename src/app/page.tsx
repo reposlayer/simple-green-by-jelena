@@ -108,12 +108,12 @@ export default function Home() {
                 initial={{ y: "110%" }}
                 animate={{ y: 0 }}
                 transition={{ duration: 1.4, ease: [0.76, 0, 0.24, 1], delay: 0.2 }}
-                className="font-serif text-[18vw] md:text-[14vw] leading-[0.75] text-[#B1C898] tracking-tighter italic z-10 flex items-center justify-center cursor-pointer"
+                className="font-serif text-[18vw] md:text-[14vw] leading-[0.75] text-outline tracking-tighter italic z-10 flex items-center justify-center cursor-pointer"
               >
                 {['G','R','E','E','N','.'].map((letter, i) => (
                   <motion.span 
                     key={i} 
-                    className="inline-block hover:-translate-y-4 md:hover:-translate-y-8 hover:rotate-6 hover:text-white transition-transform duration-300"
+                    className="inline-block hover:-translate-y-4 md:hover:-translate-y-8 hover:rotate-6 hover:text-[#B1C898] hover:text-solid transition-all duration-300"
                   >
                     {letter}
                   </motion.span>
