@@ -86,7 +86,7 @@ export default function Home() {
           </motion.div>
 
           <motion.div style={{ y: textY }} className="flex flex-col items-center">
-            <div className="overflow-hidden">
+            <div className="overflow-hidden pointer-events-auto">
               <motion.h1 
                 initial={{ y: "110%" }}
                 animate={{ y: 0 }}
@@ -96,14 +96,14 @@ export default function Home() {
                 {['S','I','M','P','L','E'].map((letter, i) => (
                   <motion.span 
                     key={i} 
-                    className="inline-block hover:-translate-y-4 md:hover:-translate-y-8 hover:rotate-6 hover:text-white transition-transform duration-300"
+                    className="inline-block hover:-translate-y-4 hover:rotate-6 hover:text-white transition-transform duration-300"
                   >
                     {letter}
                   </motion.span>
                 ))}
               </motion.h1>
             </div>
-            <div className="overflow-hidden flex items-end gap-6 mt-2 md:mt-6">
+            <div className="overflow-hidden flex items-end gap-6 mt-2 md:mt-6 pointer-events-auto">
               <motion.h1 
                 initial={{ y: "110%" }}
                 animate={{ y: 0 }}
@@ -113,7 +113,7 @@ export default function Home() {
                 {['G','R','E','E','N','.'].map((letter, i) => (
                   <motion.span 
                     key={i} 
-                    className="inline-block hover:-translate-y-4 md:hover:-translate-y-8 hover:rotate-6 hover:text-[#B1C898] hover:text-solid transition-all duration-300"
+                    className="inline-block hover:-translate-y-4 hover:rotate-6 hover:text-[#B1C898] hover:text-solid transition-all duration-300"
                   >
                     {letter}
                   </motion.span>
