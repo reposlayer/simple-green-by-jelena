@@ -283,7 +283,8 @@ export default function Home() {
              <div className="md:text-right">
                <span className="font-sans text-xs tracking-[0.3em] uppercase text-[#B1C898] mb-4 block">Kontaktirajte nas</span>
                <a href="mailto:simplegreenbyjelena@gmail.com" className="font-serif text-2xl md:text-4xl block hover:italic transition-all">simplegreenbyjelena@gmail.com</a>
-               <p className="font-sans text-gray-400 mt-4 text-sm uppercase tracking-widest">(Pretplatite se na tjedni meni mailom)</p>
+               <a href="tel:0957001777" className="font-serif text-2xl md:text-4xl block hover:italic transition-all mt-2 md:mt-4 text-gray-400">095 700 1777</a>
+               <p className="font-sans text-gray-500 mt-6 text-sm uppercase tracking-widest">(Pretplatite se na tjedni meni mailom)</p>
              </div>
            </div>
 

@@ -54,7 +54,7 @@ export function MenuOverlay({ isOpen, onClose }: MenuOverlayProps) {
             className="absolute bottom-12 left-6 md:left-24 flex gap-12 font-sans text-xs tracking-widest uppercase text-gray-500"
           >
             <div>Sutlanska 1, Zagreb</div>
-            <div>01 234 5678</div>
+            <a href="tel:0957001777" className="hover:text-[#B1C898] transition-colors">095 700 1777</a>
           </motion.div>
         </motion.div>
       )}
